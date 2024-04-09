@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-math-blog
+    name: Un i-FILTER YouTUbe
     env: python
     region: Oregon
     plan: free
