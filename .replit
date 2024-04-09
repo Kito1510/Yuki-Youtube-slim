@@ -1,0 +1,7 @@
+hidden=[".config"]
+modules = ["web:v2-20230623-0b7a606"]
+run = "uvicorn --port $PORT --host 0.0.0.0 main:app"
+
+[deployment]
+publicDir = "/"
+deploymentTarget = "static"

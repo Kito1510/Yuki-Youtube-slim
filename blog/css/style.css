@@ -1,0 +1,265 @@
+body {
+  display: flex;
+  height: 100%;
+  padding: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: url(background.png) lightgray 50% / cover no-repeat;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.main {
+  display: flex;
+  padding: 200px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 32px;
+  background: #CAEFFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.titles p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+.subtitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.copy {
+  font-size: 15px;
+}
+
+.subtitile {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+
+.copy {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+
+.button {
+  display: flex;
+  padding: 24px 132px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  background: #7FD8FE;
+}
+
+.button p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ps-main {
+  display: flex;
+  height: 867px;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 32px;
+  background: #CAEFFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ps-enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.ps-text {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ps-form {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 32px;
+  background: #A7E2FC;
+}
+
+#gennumberform {
+  background: #A7E2FC;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+
+.ps-button {
+  align-self: stretch;
+  display: flex;
+  padding: 18px 215px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  background: #7FD8FE;
+}
+
+.ps-link {
+  align-self: stretch;
+}
+
+.button-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.or-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  align-self: stretch;
+}
+
+.line {
+  width: 5px;
+  height: 414px;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.or-text {
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.sub-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.sub-text {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.mini-text {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ps-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+#color {
+  border-radius: 32px;
+  background: rgba(194, 194, 194, 0.50);
+}
+
+#hid {
+  display: none;
+  font-size: 24px;
+}
+
+#mail + #hid.show {
+  display: block;
+}
